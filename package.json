@@ -1,0 +1,17 @@
+{
+  "name": "schoolco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:client": "cd client && ng serve -o",
+    "start:server": "cd server && npm run start:dev",
+    "dev": "concurrently -p=\"{name}\" -n=\"Angular,NestJS\" -c=\"green,blue\" \"npm run start:client\" \"npm run start:server\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
