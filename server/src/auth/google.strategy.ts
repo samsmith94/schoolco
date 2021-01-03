@@ -6,6 +6,7 @@ import { AuthService, Provider } from "./auth.service";
 
 import { config } from 'dotenv';
 
+
 @Injectable()
 export class GoogleStrategy extends PassportStrategy(Strategy, 'google')
 {

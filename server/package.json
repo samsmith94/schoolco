@@ -32,6 +32,7 @@
     "dotenv": "^8.2.0",
     "jsonwebtoken": "^8.5.1",
     "mysql": "^2.18.1",
+    "nestjsx-automapper": "^3.1.4",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
     "passport-jwt": "^4.0.0",
